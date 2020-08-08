@@ -1,10 +1,9 @@
 ##### Common settings
 
 # Auto detect text files and perform LF normalization
-*           text=auto eol=lf
+* text=auto eol=lf
 
 # Documents
-*.md        text
 *.txt       text
 
 # Spreadsheets
@@ -12,9 +11,6 @@
 
 # Graphics
 *.png       binary
-*.jpg       binary
-*.jpeg      binary
-*.svg       text
 
 # Serialisation
 *.json      text
@@ -27,9 +23,6 @@
 .gitignore      export-ignore
 
 ##### Basic .gitattributes for a Jupyter repo.
-
-# Binary files
-*.pickle    binary
 
 # Jupyter notebook
 *.ipynb     text    diff=python

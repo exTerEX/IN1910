@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+numpy = { version = "==1.20.1" }
+scipy = { version = "==1.6.1" }
+matplotlib = { version = "==3.3.4" }
+
+[dev-packages]
+nose = { version = "*" }
+ipykernel = { version = "*" }
